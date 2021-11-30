@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="FirstCell" id="gTV-IL-0wX" customClass="FirstCell" customModule="CollectionViewCell" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="300"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="414" height="300"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="LOGIN" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="n0f-GV-NS3">
+                        <rect key="frame" x="20" y="120" width="374" height="63"/>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mod-Ag-Egc">
+                        <rect key="frame" x="25" y="212" width="175" height="40"/>
+                        <color key="backgroundColor" red="0.58188301320000002" green="0.21569153669999999" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="175" id="2Lf-YR-0I6"/>
+                            <constraint firstAttribute="height" constant="40" id="qvP-l5-NLG"/>
+                        </constraints>
+                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <state key="normal" title="Button"/>
+                        <buttonConfiguration key="configuration" style="plain">
+                            <attributedString key="attributedTitle">
+                                <fragment content="facebook">
+                                    <attributes>
+                                        <font key="NSFont" size="20" name="Helvetica-Bold"/>
+                                    </attributes>
+                                </fragment>
+                            </attributedString>
+                        </buttonConfiguration>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B3Y-Eh-xg6">
+                        <rect key="frame" x="214" y="212" width="175" height="40"/>
+                        <color key="backgroundColor" name="AccentColor"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="175" id="51n-lg-f4B"/>
+                            <constraint firstAttribute="height" constant="40" id="FXd-w5-V32"/>
+                        </constraints>
+                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <state key="normal" title="Button"/>
+                        <buttonConfiguration key="configuration" style="plain">
+                            <attributedString key="attributedTitle">
+                                <fragment content="twitter">
+                                    <attributes>
+                                        <font key="NSFont" size="20" name="Helvetica-Bold"/>
+                                        <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                    </attributes>
+                                </fragment>
+                            </attributedString>
+                        </buttonConfiguration>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mEq-T2-KsZ">
+                        <rect key="frame" x="40" y="267" width="334" height="31"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="31" id="Ufx-Ku-2eH"/>
+                        </constraints>
+                        <color key="tintColor" red="0.57045853140000002" green="0.57047235969999999" blue="0.57046490910000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <state key="normal" title="Button"/>
+                        <buttonConfiguration key="configuration" style="plain">
+                            <attributedString key="attributedTitle">
+                                <fragment content="OR">
+                                    <attributes>
+                                        <font key="NSFont" size="20" name="Helvetica-Bold"/>
+                                        <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                    </attributes>
+                                </fragment>
+                            </attributedString>
+                        </buttonConfiguration>
+                    </button>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="n0f-GV-NS3" secondAttribute="trailing" constant="20" id="0LS-5r-kTn"/>
+                <constraint firstAttribute="bottomMargin" secondItem="mEq-T2-KsZ" secondAttribute="bottom" constant="2" id="0ng-fZ-dci"/>
+                <constraint firstAttribute="trailing" secondItem="B3Y-Eh-xg6" secondAttribute="trailing" constant="25" id="2EG-va-N1G"/>
+                <constraint firstAttribute="trailing" secondItem="mod-Ag-Egc" secondAttribute="trailing" constant="214" id="2Ll-6L-vjX"/>
+                <constraint firstItem="B3Y-Eh-xg6" firstAttribute="top" secondItem="n0f-GV-NS3" secondAttribute="bottom" constant="29" id="31J-gI-rs7"/>
+                <constraint firstItem="n0f-GV-NS3" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="20" id="Dvh-0v-ept"/>
+                <constraint firstItem="mEq-T2-KsZ" firstAttribute="top" secondItem="mod-Ag-Egc" secondAttribute="bottom" constant="15" id="G0D-pi-iT1"/>
+                <constraint firstItem="mEq-T2-KsZ" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leadingMargin" constant="20" id="IdD-at-mfu"/>
+                <constraint firstItem="mEq-T2-KsZ" firstAttribute="top" secondItem="B3Y-Eh-xg6" secondAttribute="bottom" constant="15" id="WTK-Vl-n93"/>
+                <constraint firstItem="mod-Ag-Egc" firstAttribute="top" secondItem="n0f-GV-NS3" secondAttribute="bottom" constant="29" id="Yuv-NW-1ft"/>
+                <constraint firstItem="n0f-GV-NS3" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="120" id="aok-Gz-uLx"/>
+                <constraint firstAttribute="trailingMargin" secondItem="mEq-T2-KsZ" secondAttribute="trailing" constant="20" id="cuO-zD-5y6"/>
+                <constraint firstItem="n0f-GV-NS3" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="efl-Sp-dru"/>
+                <constraint firstItem="mod-Ag-Egc" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="25" id="fuX-Tg-r50"/>
+                <constraint firstItem="B3Y-Eh-xg6" firstAttribute="leading" secondItem="mod-Ag-Egc" secondAttribute="trailing" constant="14" id="vaC-nJ-fAE"/>
+            </constraints>
+            <size key="customSize" width="414" height="246"/>
+            <connections>
+                <outlet property="facebook" destination="mod-Ag-Egc" id="NRR-rd-Apf"/>
+                <outlet property="login" destination="n0f-GV-NS3" id="Mjh-7O-8ZK"/>
+                <outlet property="or" destination="mEq-T2-KsZ" id="0nZ-lx-phR"/>
+                <outlet property="twitter" destination="B3Y-Eh-xg6" id="WwD-e1-rsn"/>
+            </connections>
+            <point key="canvasLocation" x="458" y="45"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <namedColor name="AccentColor">
+            <color red="0.0" green="0.46000000000000002" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>
